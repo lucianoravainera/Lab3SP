@@ -67,7 +67,7 @@ var SegundoParcial;
         p.then(function (Vehiculo) {
             listaVehiculos.push(Vehiculo);
             var tablaVehiculos = document.getElementById("tablaVehiculos");
-            ConstruirFila(tablaVehiculos, Vehiculo.getId(), Vehiculo.getMarca(), Vehiculo.getModelo(), Vehiculo.getPrecio(), cantPuertNum, esCuatroXcuatro, 1);
+            ConstruirFila(tablaVehiculos, Vehiculo.getId() + 1, Vehiculo.getMarca(), Vehiculo.getModelo(), Vehiculo.getPrecio(), cantPuertNum, esCuatroXcuatro, 1);
         })["catch"](function (error) {
             alert("Error: " + error);
         });

@@ -72,7 +72,7 @@ namespace SegundoParcial {
         p.then((Vehiculo) => {
             listaVehiculos.push(<Vehiculo>Vehiculo);
             var tablaVehiculos = (<HTMLTableElement>document.getElementById("tablaVehiculos"));
-            ConstruirFila(tablaVehiculos, (<Vehiculo>Vehiculo).getId(), (<Vehiculo>Vehiculo).getMarca(),
+            ConstruirFila(tablaVehiculos, (<Vehiculo>Vehiculo).getId()+1, (<Vehiculo>Vehiculo).getMarca(),
                 (<Vehiculo>Vehiculo).getModelo(), (<Vehiculo>Vehiculo).getPrecio(), cantPuertNum, esCuatroXcuatro,1);
         }).catch((error) => {
             alert("Error: " + error)
