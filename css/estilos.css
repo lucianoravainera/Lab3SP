@@ -1,0 +1,167 @@
+#tablaVehiculos
+{ 
+    background-color: gainsboro;
+    border-collapse: collapse;  
+    border: 1px solid rgb(88, 17, 56);
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%; 
+   
+    justify-content: center;
+    z-index: -1; 
+}
+
+#tablaFiltrados
+{ 
+    background-color: gainsboro;
+    border-collapse: collapse;  
+    border: 1px solid rgb(88, 17, 56);
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;  
+    justify-content: center;
+    z-index: -1; 
+}
+
+tr:nth-child(even)
+{
+    background-color: black;
+    color: gold;
+}
+#th, td
+{
+    border-collapse: collapse; 
+    border: 1px solid rgb(88, 17, 56);
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+#contenedorAlta {
+    padding: 5%;
+    position: fixed;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    background: gray;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    box-shadow: 10px 10px 5px 0px rgb(172, 172, 172);
+}
+body{
+    background-color: rgb(192, 247, 192);
+}
+
+input[type=button]:hover{ /*HOVER cuando pasa mouse por arriba*/
+    background-color:red;
+}
+input[type=button]{ 
+    background-color:green;
+    border:none;
+    border-radius:5px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px; 
+    cursor:pointer;
+}
+#divAlta{
+    position: fixed;
+    flex-wrap: wrap;
+    right: 2%;
+}
+
+#contenedorAgregar
+{
+    justify-content: space-between;
+   
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;   
+    top:25%; 
+    left:25%; 
+    right:25%;
+   
+}
+
+#divUser
+{
+    width: 100%;
+}
+
+#cerrar
+{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 5%;
+   
+}
+
+
+
+#divCerrar
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btnModificar
+{
+    background-color: limegreen;
+    border: 1px solid black;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+#btnGuardar
+{
+    background-color: limegreen;
+    border: 1px solid black;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#divbotones
+{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#btnEliminar
+{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+#h1
+{
+    width: 100%;
+    left: 25%;
+    right: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+   
+}
+
